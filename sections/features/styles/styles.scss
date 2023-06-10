@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 //---------------section-feature------------------
 .features-basic {
   padding-top: 120px;
@@ -60,7 +59,7 @@
         border: 2px solid transparent;
         border-radius: 8px;
         max-width: calc(100% / 3 - 16px);
-        
+
         //---------------hover-card-feature------------------
         &:hover {
           border-color: #fe7a7b;
@@ -99,11 +98,11 @@
           transition: all 0.3s ease-out 0s;
           text-decoration: none;
           font-family: "Poppins", sans-serif;
-          line-height:1.2;
+          line-height: 1.2;
 
           //---------------hover-title-card-feature------------------
           &:hover {
-            color: #361CC1;
+            color: #361cc1;
           }
         }
 
@@ -128,7 +127,7 @@
           //---------------hover-buttom-card-feature------------------
           &:hover {
             p {
-                letter-spacing: 2px;
+              letter-spacing: 2px;
             }
           }
 
@@ -155,9 +154,9 @@
   }
 
   //---------------@media-querys------------------
-  @media (max-width:1398px) {
+  @media (max-width: 1398px) {
     .container-features {
-      max-width:1140px;
+      max-width: 1140px;
 
       .container-title-features {
         .title-features {
@@ -167,7 +166,7 @@
     }
   }
 
-  @media (max-width:1199px) {
+  @media (max-width: 1199px) {
     .container-features {
       max-width: 960px;
       padding: 0 20px;
@@ -181,7 +180,7 @@
     }
   }
 
-  @media (max-width:991px) {
+  @media (max-width: 991px) {
     .container-features {
       max-width: 696px;
       .container-card-features {
@@ -206,7 +205,7 @@
     }
   }
 
-  @media (max-width:767px) {
+  @media (max-width: 767px) {
     .container-features {
       .container-card-features {
         .card-features {
@@ -231,7 +230,7 @@
     }
   }
 
-  @media (max-width:575px) {
+  @media (max-width: 575px) {
     .container-features {
       max-width: 100%;
       .container-card-features {
