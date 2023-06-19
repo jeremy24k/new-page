@@ -1,0 +1,483 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-trading {
+  .container-trading {
+    max-width: 1080px;
+    padding: 0 15px;
+    margin: auto;
+
+
+    .container-title-trading {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 20px;
+
+      .title-trading {
+        display: flex;
+        align-items: center;
+
+        .title-text-trading {
+          font-family: 'Lato', sans-serif;
+          font-size: 14px;
+          line-height: 1.7;
+          display: flex;
+          align-items: center; 
+          padding-right: 8px;
+        }
+
+        .container-titles-chages {
+          overflow: hidden;
+          max-height: 25px;
+          background-color: red;
+          margin: 0;
+          
+          .titles-chages {
+            display: flex;
+            flex-direction: column;
+  
+            .text-trading {
+              font-family: 'Lato', sans-serif;
+              font-size: 14px;
+              line-height: 1.7;
+            }
+  
+            .text-trading-2 {
+              font-family: 'Lato', sans-serif;
+              font-size: 14px;
+              line-height: 1.7;
+            }
+          }
+        }
+      }
+
+      .container-form-trading {
+        .form-trading {
+          display: flex;
+          max-width: 220px;
+          width: 100%;
+          min-height: 45px;
+          position: relative;
+          margin: 6px 0;
+  
+          .input-trading {
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            line-height: 1.7;
+            padding: 0 45px 0 25px;
+            outline: 0;
+            border: 2px solid #e6e6e6;
+            border-radius: 30px;
+          }
+  
+          .buttom-search {
+            position: absolute;
+            right: 2px;
+            top: 2px;
+            max-width: 45px;
+            width: 100%;
+            min-height: 43px;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+  
+            svg {
+              width: 15px;
+              height: 21px;
+              fill: black;
+              stroke: black;
+              transition: all .3s;
+            }
+
+            &:hover {
+              svg {
+                fill: #17b978;
+                stroke: #17b978;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .container-images-trading {
+      display: flex;
+      min-height: 440px;
+
+      .buttom-trading {
+        border: 1px solid #fff;
+        display: flex;
+        background-color: transparent;
+        transition: all .3s;
+
+        p {
+          font-family: 'Roboto', sans-serif;
+          font-size: 14px;
+          line-height: 1.2;
+          color: #fff;
+          padding: 2px 5px 0;
+        }
+
+        &:hover {
+          background-color: #17b978;
+          border-color: #17b978;
+          color: #fff;
+        }
+      }
+
+      .img-section {
+        position: relative;
+
+        .bg-images {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          opacity: 0.5;
+          background: rgba(0,0,0,0.5);
+          background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+          transition: all .3s;
+        }
+
+        &:hover {
+          .bg-images {
+            opacity: 0.3;
+          }
+        }
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+
+      .container-img-business {
+        max-width: 50%;
+        width: 100%;
+        margin: 0 1px 2px 0;
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+
+        .container-text-business {
+          padding: 25px 20px;
+
+          .buttom-business {
+            max-width: 69px;
+            min-height: 20px;
+            margin-bottom: 10px;
+            z-index: 10;
+            position: relative;
+          }
+  
+          .title-business {
+            max-width: 100%;
+            width: 100%;
+            min-height: 72px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 30px;
+            line-height: 1.2;
+            margin-bottom: 14px;
+            z-index: 10;
+            position: relative;
+            
+  
+            a {
+              color: #fff;
+              transition: all .3s;
+              white-space: normal;
+              display: box;
+              display: -moz-box;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+              text-overflow: ellipsis;
+            }
+
+            &:hover {
+              a {
+                color: #17b978;
+              }
+            }
+          }
+  
+          .name-amd-date {
+            font-family: 'Roboto', sans-serif;
+            font-size: 12px;
+            line-height: 1.7;
+            color: #ccc;
+            z-index: 10;
+            position: relative;
+          }
+        }
+
+        .img-business {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .images-trading {
+        max-width: 50%;
+        width: 100%;
+        margin: 0 0 0 1px;
+
+        .container-img-culture {
+          position: relative;
+          min-height: 246px;
+          display: flex;
+          align-items: end;
+          margin-bottom: 2px;
+
+          .container-text-culture {
+            position: relative;
+            padding: 24px 25px;
+
+            .button-culture {
+              max-width: 57px;
+              min-height: 20px;
+              margin-bottom: 14px;
+              z-index: 10;
+              position: relative;
+            }
+
+            .title-culture {
+              font-family: 'Roboto', sans-serif;
+              font-size: 22px;
+              line-height: 1.272727;
+              z-index: 10;
+              position: relative;
+
+              a {
+                color: #fff;
+                transition: all .3s;
+                display: box;
+                display: -moz-box;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+              }
+
+              &:hover {
+                a {
+                  color: #17b978;
+                }
+              }
+            }
+          }
+
+          .img-culture {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          }          
+        }
+
+        .into-img-trading {
+          display: flex;
+          min-height: 194px;
+          padding-bottom: 2px;
+
+          .container-img-life-style {
+            max-width: 50%;
+            width: 100%;
+            position: relative;
+            margin-right: 1px;
+            display: flex;
+            align-items: end;
+
+            .container-text-life-style {
+              position: relative;
+              padding: 20px 25px;
+
+              .buttom-life-style {
+                max-width: 69px;
+                width: 100%;
+                min-height: 20px;
+                margin-bottom: 14px;
+                z-index: 10;
+                position: relative;
+              }
+
+              .title-life-style {
+                font-family: 'Roboto', sans-serif;
+                font-size: 16px;
+                line-height: 1.5;
+                max-height: 45px;
+                z-index: 10;
+                position: relative;
+
+                &:hover {
+                  a {
+                    color: #17b978;
+                  }
+                }
+
+                a {
+                  color: #fff;
+                  transition: all .3s;
+                  display: box;
+                  display: -moz-box;
+                  display: -webkit-box;
+                  -webkit-line-clamp: 2;
+                  -webkit-box-orient: vertical;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                }
+              }
+            }
+
+            .img-life-style {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+
+            }
+          }
+
+          .container-img-sport {
+            max-width: 50%;
+            width: 100%;
+            position: relative;
+            margin-left: 1px;
+            display: flex;
+            align-items: end;
+
+
+            .container-text-sport {
+              position: relative;
+              padding: 20px 25px;
+
+              .buttom-sport {
+                max-width: 45px;
+                width: 100%;
+                min-height: 20px;
+                margin-bottom: 14px;
+                z-index: 10;
+                position: relative;
+              }
+
+              .title-sport {
+                font-family: 'Roboto', sans-serif;
+                font-size: 16px;
+                line-height: 1.5;
+                max-height: 45px;
+                z-index: 10;
+                position: relative;
+
+                &:hover {
+                  a {
+                    color: #17b978;
+                  }
+                }
+
+                a {
+                  color: #fff;
+                  transition: all .3s;
+                  display: box;
+                  display: -moz-box;
+                  display: -webkit-box;
+                  -webkit-line-clamp: 2;
+                  -webkit-box-orient: vertical;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                }
+              }
+            }
+
+            .img-sport {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+   .container-trading {
+     .container-images-trading {
+      flex-direction: column;
+      min-height: 100%;
+
+      .container-img-business {
+        max-width: 100%;
+        min-height: 440px;
+        }
+
+      .images-trading {
+        max-width: 100%;
+      }
+     }
+   }
+  }
+
+  @media (max-width: 720px) {
+    .container-trading {
+      .container-title-trading {
+        flex-direction: column;
+
+        .title-trading {
+          margin: 6px 0;
+        }
+      }
+    }
+  }
+
+
+  @media (max-width: 575px) {
+    .container-trading {
+      .container-title-trading {
+        .title-trading {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+        }
+      }
+
+      .container-images-trading {
+        .images-trading {
+          .into-img-trading {
+            flex-direction: column;
+
+            .container-img-life-style {
+              max-width: 100%;
+              min-height: 194px;
+            }
+
+            .container-img-sport {
+              max-width: 100%;
+              min-height: 194px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
