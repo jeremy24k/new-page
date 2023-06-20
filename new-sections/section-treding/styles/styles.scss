@@ -30,25 +30,37 @@
         }
 
         .container-titles-chages {
-          overflow: hidden;
           max-height: 25px;
-          background-color: red;
-          margin: 0;
+
+          div.active {
+
+            .text-trading-1 {
+              order: 1;
+            }
+  
+            .text-trading-2 {
+              order: 2;
+            }
+          }
           
           .titles-chages {
             display: flex;
             flex-direction: column;
+            transition: 0.5s;
+
   
             .text-trading {
               font-family: 'Lato', sans-serif;
               font-size: 14px;
               line-height: 1.7;
             }
+
+            .text-trading-1 {
+              order: 2;
+            }
   
             .text-trading-2 {
-              font-family: 'Lato', sans-serif;
-              font-size: 14px;
-              line-height: 1.7;
+              order: 1;
             }
           }
         }

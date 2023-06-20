@@ -27,24 +27,29 @@
   padding-right: 8px;
 }
 .section-trading .container-trading .container-title-trading .title-trading .container-titles-chages {
-  overflow: hidden;
   max-height: 25px;
-  background-color: red;
-  margin: 0;
+}
+.section-trading .container-trading .container-title-trading .title-trading .container-titles-chages div.active .text-trading-1 {
+  order: 1;
+}
+.section-trading .container-trading .container-title-trading .title-trading .container-titles-chages div.active .text-trading-2 {
+  order: 2;
 }
 .section-trading .container-trading .container-title-trading .title-trading .container-titles-chages .titles-chages {
   display: flex;
   flex-direction: column;
+  transition: 0.5s;
 }
 .section-trading .container-trading .container-title-trading .title-trading .container-titles-chages .titles-chages .text-trading {
   font-family: "Lato", sans-serif;
   font-size: 14px;
   line-height: 1.7;
 }
+.section-trading .container-trading .container-title-trading .title-trading .container-titles-chages .titles-chages .text-trading-1 {
+  order: 2;
+}
 .section-trading .container-trading .container-title-trading .title-trading .container-titles-chages .titles-chages .text-trading-2 {
-  font-family: "Lato", sans-serif;
-  font-size: 14px;
-  line-height: 1.7;
+  order: 1;
 }
 .section-trading .container-trading .container-title-trading .container-form-trading .form-trading {
   display: flex;
