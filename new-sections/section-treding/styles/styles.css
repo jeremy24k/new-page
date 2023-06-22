@@ -28,28 +28,51 @@
 }
 .section-trading .container-trading .container-title-trading .title-trading .container-titles-chages {
   max-height: 25px;
-}
-.section-trading .container-trading .container-title-trading .title-trading .container-titles-chages div.active .text-trading-1 {
-  order: 1;
-}
-.section-trading .container-trading .container-title-trading .title-trading .container-titles-chages div.active .text-trading-2 {
-  order: 2;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 .section-trading .container-trading .container-title-trading .title-trading .container-titles-chages .titles-chages {
   display: flex;
   flex-direction: column;
   transition: 0.5s;
+  position: relative;
+  width: 315px;
+  min-height: 25px;
+  animation: slide 15s infinite;
 }
 .section-trading .container-trading .container-title-trading .title-trading .container-titles-chages .titles-chages .text-trading {
   font-family: "Lato", sans-serif;
   font-size: 14px;
-  line-height: 1.7;
-}
-.section-trading .container-trading .container-title-trading .title-trading .container-titles-chages .titles-chages .text-trading-1 {
-  order: 2;
+  min-height: 25px;
+  line-height: 1.2;
+  position: absolute;
+  top: 0%;
+  display: flex;
+  align-items: center;
 }
 .section-trading .container-trading .container-title-trading .title-trading .container-titles-chages .titles-chages .text-trading-2 {
-  order: 1;
+  top: -100%;
+}
+.section-trading .container-trading .container-title-trading .title-trading .container-titles-chages .titles-chages .text-trading-3 {
+  top: -200%;
+}
+.section-trading .container-trading .container-title-trading .title-trading .container-titles-chages .titles-chages .text-trading-4 {
+  top: -300%;
+}
+@keyframes slide {
+  25% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(100%);
+  }
+  75% {
+    transform: translateY(200%);
+  }
+  100% {
+    transform: translateY(300%);
+  }
 }
 .section-trading .container-trading .container-title-trading .container-form-trading .form-trading {
   display: flex;
@@ -377,6 +400,13 @@
     display: flex;
     flex-direction: column;
     align-items: start;
+  }
+  .section-trading .container-trading .container-title-trading .title-trading .container-titles-chages {
+    width: 220px;
+    min-height: 35px;
+  }
+  .section-trading .container-trading .container-title-trading .title-trading .container-titles-chages .titles-chages {
+    min-height: 35px;
   }
   .section-trading .container-trading .container-images-trading .images-trading .into-img-trading {
     flex-direction: column;
