@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-music .container-music {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
+}
+.section-music .container-music .img-music {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.section-music .container-music .img-music img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.3s;
+}
+.section-music .container-music .img-music:hover img {
+  opacity: 0.8;
+}
+.section-music .container-music .container-text-music {
+  max-width: 720px;
+}
+.section-music .container-music .container-text-music .title-music {
+  text-decoration: none;
+}
+.section-music .container-music .container-text-music .title-music h5 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.25;
+  padding-bottom: 5px;
+  font-family: "Roboto", sans-serif;
+  color: #222;
+  transition: all 0.3s;
+}
+.section-music .container-music .container-text-music .title-music h5:hover {
+  color: #17b978;
+}
+.section-music .container-music .container-text-music .date-music {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #888;
+}
+.section-music .container-music .container-text-music .date-music .buttom-music {
+  color: #888;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.section-music .container-music .container-text-music .date-music .buttom-music:hover {
+  color: #17b978;
+}
+@media (max-width: 660px) {
+  .section-music .container-music .container-text-music .title-music h5 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 425px) {
+  .section-music .container-music .container-text-music .title-music h5 {
+    font-size: 20px;
+  }
+  .section-music .container-music .container-text-music .date-music {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=styles.css.map */
