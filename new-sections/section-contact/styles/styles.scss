@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//----------------------section-contact-----------------------
+.section-contact {
+  .container-contact {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 15px;
+
+    //----------------------top-bar-contact-----------------------
+    .tob-bar-contact {
+      min-height: 50px;
+      display: flex;
+      align-items: center;
+      border: 1px solid #e6e6e6;
+
+      .bar-left {
+        width: 5px;
+        min-height: 50px;
+        background-color: #333;        
+      }
+
+      .title-contact {
+        padding: 0 18px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        line-height: 1.333333;
+      }
+    }
+
+    //----------------------contact-----------------------
+    .contact {
+      padding-top: 35px;
+
+      .container-text-contact {
+        display: flex;
+        margin-bottom: 20px;
+        align-items: center;
+        max-height: 30px;
+
+        .container-logos {
+          display: flex;
+          width: 35px;
+          height: 35px;
+  
+          .logo-facebook {
+            fill: #3b5998;
+          }
+  
+          .logo-twitter {
+            fill: #1da1f2;
+          }
+  
+          .logo-youtube {
+            fill: #ff0000;
+          }
+        }
+
+        .info-contact {
+          width: 100%;
+          padding-left: 18px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .text-contact {
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            line-height: 1.5;
+            font-weight: 400;
+            color: #333;
+          }
+
+          .buttom-contact {
+            display: flex;
+            align-items: center;
+            font-family: 'Roboto', sans-serif;
+            font-size: 12px;
+            line-height: 1.5;
+            text-decoration: none;
+            color: #333;
+            font-weight: 700;
+            transition: all .3s;
+
+            &:hover{
+              color: #17b978;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-categories .container-categories {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 20px;
+}
+.section-categories .container-categories .category {
+  display: flex;
+  margin-bottom: 80px;
+}
+.section-categories .container-categories .category .img-category {
+  max-width: 400px;
+  max-height: 280px;
+  margin-right: 50px;
+}
+.section-categories .container-categories .category .img-category img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.section-categories .container-categories .category .img-category img:hover {
+  opacity: 0.8;
+}
+.section-categories .container-categories .category .text-category .title-category {
+  margin-bottom: 40px;
+}
+.section-categories .container-categories .category .text-category .title-category a {
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+  line-height: 1.333333;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s;
+}
+.section-categories .container-categories .category .text-category .title-category a:hover {
+  color: #17b978;
+}
+.section-categories .container-categories .category .text-category .date-category {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  line-height: 1.7;
+  color: #888;
+}
+.section-categories .container-categories .category .text-category .date-category .buttom-category {
+  text-decoration: none;
+  color: #888;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.section-categories .container-categories .category .text-category .date-category .buttom-category:hover {
+  color: #17b978;
+}
+@media (max-width: 1230px) {
+  .section-categories .container-categories .category {
+    margin-bottom: 50px;
+  }
+  .section-categories .container-categories .category .img-category {
+    max-height: 250px;
+  }
+  .section-categories .container-categories .category .text-category .title-category a {
+    font-size: 40px;
+  }
+  .section-categories .container-categories .category .text-category .date-category {
+    font-size: 35px;
+  }
+}
+@media (max-width: 990px) {
+  .section-categories .container-categories .category .img-category {
+    max-width: 300px;
+    max-height: 180px;
+    margin-right: 20px;
+  }
+  .section-categories .container-categories .category .text-category .title-category a {
+    font-size: 30px;
+  }
+  .section-categories .container-categories .category .text-category .date-category {
+    font-size: 25px;
+  }
+}
+@media (max-width: 725px) {
+  .section-categories .container-categories .category .img-category {
+    max-width: 250px;
+    max-height: 150px;
+  }
+  .section-categories .container-categories .category .text-category .title-category a {
+    font-size: 25px;
+  }
+  .section-categories .container-categories .category .text-category .date-category {
+    font-size: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .section-categories .container-categories {
+    padding: 0 15px;
+  }
+  .section-categories .container-categories .category {
+    margin-bottom: 30px;
+  }
+  .section-categories .container-categories .category .img-category {
+    max-width: 150px;
+    max-height: 100px;
+    margin-right: 20px;
+  }
+  .section-categories .container-categories .category .text-category .title-category {
+    margin-bottom: 15px;
+  }
+  .section-categories .container-categories .category .text-category .title-category a {
+    font-size: 18px;
+  }
+  .section-categories .container-categories .category .text-category .date-category {
+    font-size: 12px;
+  }
+}
+@media (max-width: 425px) {
+  .section-categories .container-categories .category .img-category {
+    max-width: 100px;
+    max-height: 75px;
+  }
+  .section-categories .container-categories .category .text-category .title-category {
+    margin-bottom: 15px;
+  }
+  .section-categories .container-categories .category .text-category .title-category a {
+    font-size: 15px;
+  }
+  .section-categories .container-categories .category .text-category .date-category {
+    font-size: 12px;
+  }
+}
+@media (max-width: 375px) {
+  .section-categories .container-categories .category .text-category .title-category {
+    margin-bottom: 10px;
+  }
+  .section-categories .container-categories .category .text-category .title-category a {
+    font-size: 12px;
+  }
+  .section-categories .container-categories .category .text-category .date-category {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=styles.css.map */
