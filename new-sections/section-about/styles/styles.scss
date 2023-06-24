@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//-------------------section-about--------------------
+.section-about {
+  background: #f5f6fa;
+  display: flex;
+  justify-content: center;
+
+  //-------------------container-about--------------------
+  .container-about {
+    max-width: 1440px;
+    width: 100%;
+    margin: 40px 15px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    min-height: 500px;
+
+    //-------------------img-about--------------------
+    .container-img-about {
+      margin-bottom: 32px;
+      text-align: center;
+
+      .img-about {
+        max-width: 90px;
+        border-radius: 100px;
+        margin-bottom: 16px;
+      }
+
+      .name-about {
+        margin-bottom: 8px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+      }
+
+      .email-about {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12.8px;
+        font-weight: 400;
+        color: #9fa8b9;
+      }
+    }
+
+    //-------------------about--------------------
+    .about {
+      text-align: center;
+      padding-top: 32px;
+
+      .title-about {
+        margin-bottom: 15px;
+        color: #007ae1;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+      }
+
+      .text-about {
+        margin: 0 auto 16px;
+        min-width: 215px;
+        font-size: 13.2px;
+        font-weight: 400;
+        line-height: 1.5;
+        font-family: 'Roboto', sans-serif;
+      }
+    }
+  }
+}
