@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-table .global-c-table {
+  max-width: 1440px;
+  margin: auto;
+}
+.section-table .global-c-table .top-bar-table {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #083e5a;
+}
+.section-table .global-c-table .top-bar-table .title-top-bar {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  color: white;
+}
+.section-table .global-c-table .top-bar-table .container-shop {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.section-table .global-c-table .top-bar-table .container-shop:hover .text-shop {
+  color: #6c6c6c;
+}
+.section-table .global-c-table .top-bar-table .container-shop:hover .shopping-car {
+  fill: #6c6c6c;
+}
+.section-table .global-c-table .top-bar-table .container-shop .text-shop {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-left: 8px;
+  color: white;
+  transition: 0.5s;
+}
+.section-table .global-c-table .top-bar-table .container-shop .shopping-car {
+  max-width: 25px;
+  min-height: 25px;
+  fill: white;
+  transition: 0.5s;
+}
+.section-table .global-c-table .container-table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0 40px;
+}
+.section-table .global-c-table .container-table .check-icon {
+  min-width: 100px;
+  min-height: 100px;
+  fill: #ececec;
+  margin-bottom: 20px;
+}
+.section-table .global-c-table .container-table .title-table {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.section-table .global-c-table .container-table .text-table {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 40px;
+}
+.section-table .global-c-table .container-table .table {
+  margin-bottom: 40px;
+  padding: 20px 0;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+}
+.section-table .global-c-table .container-table .table .conatianer-columns td {
+  padding: 0 20px 10px;
+  font-family: "Roboto", sans-serif;
+}
+.section-table .global-c-table .container-table .table .conatianer-columns .select-table {
+  outline: none;
+  border: 0.5px solid #bbb;
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+.section-table .global-c-table .container-table .table .conatianer-columns .input-table input {
+  outline: none;
+  border: 0.5px solid #bbb;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.section-table .global-c-table .container-table .container-text-top {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.section-table .global-c-table .container-table .container-text-top .text-top {
+  padding: 0 30px;
+}
+.section-table .global-c-table .container-table .container-text-top .text-top .title-info {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.section-table .global-c-table .container-table .container-text-top .text-top p {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+}
+.section-table .global-c-table .container-table .bar-bottom {
+  background-color: #2199a1;
+  width: 100%;
+  text-align: center;
+}
+.section-table .global-c-table .container-table .bar-bottom .into-bar-bottom {
+  padding: 80px;
+}
+.section-table .global-c-table .container-table .bar-bottom .into-bar-bottom .title-bar-bottom {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  margin-bottom: 40px;
+  color: white;
+}
+.section-table .global-c-table .container-table .bar-bottom .into-bar-bottom .bar-buttom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #64b0b3;
+  max-width: 200px;
+  min-height: 80px;
+  border-radius: 15px;
+  text-decoration: none;
+  margin: auto;
+  transition: 0.5s;
+}
+.section-table .global-c-table .container-table .bar-bottom .into-bar-bottom .bar-buttom:hover {
+  background-color: #71aaac;
+}
+.section-table .global-c-table .container-table .bar-bottom .into-bar-bottom .bar-buttom p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: white;
+}/*# sourceMappingURL=styles.css.map */
