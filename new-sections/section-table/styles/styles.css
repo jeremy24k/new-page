@@ -19,6 +19,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 40px;
   color: white;
+  text-decoration: none;
 }
 .section-table .global-c-table .top-bar-table .container-shop {
   display: flex;
@@ -26,10 +27,10 @@
   cursor: pointer;
 }
 .section-table .global-c-table .top-bar-table .container-shop:hover .text-shop {
-  color: #6c6c6c;
+  color: #000000;
 }
 .section-table .global-c-table .top-bar-table .container-shop:hover .shopping-car {
-  fill: #6c6c6c;
+  fill: #000000;
 }
 .section-table .global-c-table .top-bar-table .container-shop .text-shop {
   font-family: "Roboto", sans-serif;
@@ -47,7 +48,6 @@
 .section-table .global-c-table .container-table {
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-top: 50px;
   padding: 0 40px;
 }
@@ -56,11 +56,13 @@
   min-height: 100px;
   fill: #ececec;
   margin-bottom: 20px;
+  margin: auto;
 }
 .section-table .global-c-table .container-table .title-table {
   font-family: "Roboto", sans-serif;
   font-size: 30px;
   margin-bottom: 20px;
+  text-align: center;
 }
 .section-table .global-c-table .container-table .text-table {
   text-align: center;
@@ -73,22 +75,31 @@
   border-top: 1px solid #bbb;
   border-bottom: 1px solid #bbb;
 }
-.section-table .global-c-table .container-table .table .conatianer-columns td {
+.section-table .global-c-table .container-table .table .into-table .conatianer-columns td {
   padding: 0 20px 10px;
   font-family: "Roboto", sans-serif;
 }
-.section-table .global-c-table .container-table .table .conatianer-columns .select-table {
+.section-table .global-c-table .container-table .table .into-table .conatianer-columns .select-table {
   outline: none;
   border: 0.5px solid #bbb;
   padding: 5px 10px;
   border-radius: 10px;
   width: 100%;
+  transition: 0.5s;
 }
-.section-table .global-c-table .container-table .table .conatianer-columns .input-table input {
+.section-table .global-c-table .container-table .table .into-table .conatianer-columns .select-table:focus {
+  outline: 1px solid #64b0b3;
+}
+.section-table .global-c-table .container-table .table .into-table .conatianer-columns .input-table input {
   outline: none;
   border: 0.5px solid #bbb;
   padding: 5px 10px;
   border-radius: 10px;
+  width: 100%;
+  transition: 0.5s;
+}
+.section-table .global-c-table .container-table .table .into-table .conatianer-columns .input-table input:focus {
+  outline: 1px solid #64b0b3;
 }
 .section-table .global-c-table .container-table .container-text-top {
   display: flex;
@@ -108,38 +119,72 @@
   font-family: "Roboto", sans-serif;
   margin-bottom: 10px;
 }
-.section-table .global-c-table .container-table .bar-bottom {
+.section-table .global-c-table .bar-bottom {
   background-color: #2199a1;
   width: 100%;
   text-align: center;
 }
-.section-table .global-c-table .container-table .bar-bottom .into-bar-bottom {
-  padding: 80px;
+.section-table .global-c-table .bar-bottom .into-bar-bottom {
+  padding: 60px;
 }
-.section-table .global-c-table .container-table .bar-bottom .into-bar-bottom .title-bar-bottom {
+.section-table .global-c-table .bar-bottom .into-bar-bottom .title-bar-bottom {
   font-family: "Roboto", sans-serif;
   font-size: 30px;
   margin-bottom: 40px;
   color: white;
 }
-.section-table .global-c-table .container-table .bar-bottom .into-bar-bottom .bar-buttom {
+.section-table .global-c-table .bar-bottom .into-bar-bottom .bar-buttom {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-color: #64b0b3;
-  max-width: 200px;
-  min-height: 80px;
+  max-width: 180px;
+  min-height: 60px;
   border-radius: 15px;
   text-decoration: none;
   margin: auto;
   transition: 0.5s;
 }
-.section-table .global-c-table .container-table .bar-bottom .into-bar-bottom .bar-buttom:hover {
+.section-table .global-c-table .bar-bottom .into-bar-bottom .bar-buttom:hover {
   background-color: #71aaac;
 }
-.section-table .global-c-table .container-table .bar-bottom .into-bar-bottom .bar-buttom p {
+.section-table .global-c-table .bar-bottom .into-bar-bottom .bar-buttom p {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: white;
+}
+@media (max-width: 860px) {
+  .section-table .global-c-table .container-table {
+    padding: 0 20px;
+  }
+  .section-table .global-c-table .container-table .table {
+    overflow: auto;
+  }
+  .section-table .global-c-table .container-table .table .into-table {
+    min-width: 1440px;
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .section-table .global-c-table .top-bar-table .title-top-bar h1 {
+    font-size: 30px;
+  }
+  .section-table .global-c-table .container-table .check-icon {
+    min-width: 80px;
+    min-height: 80px;
+    margin-bottom: 20px;
+  }
+  .section-table .global-c-table .container-table .title-table {
+    font-size: 25px;
+  }
+  .section-table .global-c-table .container-table .container-text-top {
+    justify-content: center;
+  }
+  .section-table .global-c-table .container-table .container-text-top .text-top {
+    padding: 0 10px;
+  }
+  .section-table .global-c-table .bar-bottom .into-bar-bottom .title-bar-bottom {
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=styles.css.map */
