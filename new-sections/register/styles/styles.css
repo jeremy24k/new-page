@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.register {
+  max-width: 795px;
+  margin: auto;
+  padding: 20px;
+}
+.register .container-register {
+  border: 1px solid #e8e8e8;
+  padding: 27px 30px;
+}
+.register .container-register .title-register {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+}
+.register .container-register .text-register {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+.register .container-register .conatiner-buttom-register {
+  display: flex;
+  align-items: center;
+}
+.register .container-register .conatiner-buttom-register .buttom-register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  width: 100%;
+  background-color: #0057ff;
+  border-radius: 100px;
+  text-decoration: none;
+  margin-right: 30px;
+  transition: 0.5s;
+}
+.register .container-register .conatiner-buttom-register .buttom-register p {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+}
+.register .container-register .conatiner-buttom-register .buttom-register:hover {
+  background-color: #003ecb;
+}
+.register .container-register .conatiner-buttom-register .conatiner-logos {
+  display: flex;
+  max-width: 150px;
+  width: 100%;
+  justify-content: space-between;
+}
+.register .container-register .conatiner-buttom-register .conatiner-logos .logo-apple {
+  border-radius: 100px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e8e8e8;
+  width: 45px;
+  height: 45px;
+  transition: 0.5s;
+}
+.register .container-register .conatiner-buttom-register .conatiner-logos .logo-apple svg {
+  width: 20px;
+  height: 20px;
+  transition: 0.5s;
+}
+.register .container-register .conatiner-buttom-register .conatiner-logos .logo-apple:hover {
+  background-color: #e8e8e8;
+}
+.register .container-register .conatiner-buttom-register .conatiner-logos .logo-facebook {
+  display: flex;
+  align-items: center;
+}
+.register .container-register .conatiner-buttom-register .conatiner-logos .logo-facebook svg {
+  width: 48px;
+  height: 48px;
+  border-radius: 100px;
+  transition: 0.5s;
+}
+.register .container-register .conatiner-buttom-register .conatiner-logos .logo-facebook:hover svg {
+  border: 1px solid #e8e8e8;
+}
+.register .container-register .conatiner-buttom-register .conatiner-logos .logo-google {
+  border-radius: 100px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e8e8e8;
+  width: 45px;
+  height: 45px;
+  transition: 0.5s;
+}
+.register .container-register .conatiner-buttom-register .conatiner-logos .logo-google svg {
+  width: 25px;
+  height: 25px;
+}
+.register .container-register .conatiner-buttom-register .conatiner-logos .logo-google:hover {
+  background-color: #e8e8e8;
+}
+@media (max-width: 520px) {
+  .register .container-register .title-register {
+    text-align: center;
+  }
+  .register .container-register .text-register {
+    text-align: center;
+  }
+  .register .container-register .conatiner-buttom-register {
+    flex-direction: column;
+  }
+  .register .container-register .conatiner-buttom-register .buttom-register {
+    margin: 0;
+  }
+  .register .container-register .conatiner-buttom-register .conatiner-logos {
+    margin-top: 20px;
+  }
+}/*# sourceMappingURL=styles.css.map */
