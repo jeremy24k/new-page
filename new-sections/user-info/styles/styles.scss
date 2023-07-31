@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//------------------------section-user-info------------------------
+.section-user-info {
+  max-width: 385px;
+  margin: 90px auto;
+  padding: 0 20px;
+
+
+  //-----------------------container-user-info------------------------
+  .container-user-info {
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    padding: 30px ;
+
+    .text-top {
+      font-family: 'Roboto', sans-serif;
+      color: #707070;
+      font-size: 11px;
+      margin-bottom: 14px;
+    }
+
+    //------------------------text-user-info------------------------
+    .text-user-info {
+      display: flex;
+      font-family: 'Roboto', sans-serif;
+      margin-bottom: 19px;
+
+      .img-user-info{
+        object-fit: cover;
+        border-radius: 50%;
+        margin-right: 15px;
+        transition: 0.5s;
+        cursor: pointer;
+        max-width: 40px;
+        width: 100% ;
+  
+        &:hover {
+          filter: brightness(80%);
+        }
+      }
+
+      .into-text-info-user {
+        .name-user {
+          font-weight: 600;
+          margin-bottom: 3px;
+          color: #191919;
+          cursor: pointer;
+
+          &:hover {
+           text-decoration: underline;
+          }
+        }
+
+        .nation-text {
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+
+          p {
+            font-size: 14px;
+            color: dimgray; 
+            font-weight: 400;
+            text-align: center;
+            transition: 0.5s;
+          }
+
+          svg {
+            width: 12px;
+            height: 12px;
+            margin-right: 3px;
+            fill: dimgray;
+            transition: 0.5s;
+          }
+
+          &:hover{
+            svg  {
+              fill: #191919;
+            }
+
+            p {
+              color: #191919;
+            }
+          }
+        }
+      }
+    }
+
+    
+    //------------------------buttoms-user-info------------------------
+    .buttom-follow {
+      display: flex;
+      background-color: #0057ff;
+      border-radius: 50px;
+      cursor: pointer;
+      padding: 6px 15px 8px;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      min-height: 40px;
+      margin-bottom: 15px;
+      transition: 0.5s;
+
+      &:hover {
+        background-color: #003ecb;
+      }
+
+      svg {
+        width: 18px;
+        height: 19px;
+        margin-right: 6px;
+        fill: white;
+      }
+
+      p {
+        font-family: 'Roboto', sans-serif;
+        color: #fff;
+        display: block;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.25;
+      }
+    }
+
+    .buttom-messanje {
+      display: flex;
+      background: #f5f8ff;
+      border-radius: 50px;
+      cursor: pointer;
+      padding: 6px 15px 8px;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      min-height: 38px;
+      margin-bottom: 15px;
+      border: 1px solid #dee8ff;
+      transition: 0.5s;
+
+      &:hover {
+        border: 1px solid #b7cdff;
+        background-color: #dee8ff;
+      }
+
+      svg {
+        width: 18px;
+        height: 19px;
+        margin-right: 6px;
+        fill: #0057ff;
+      }
+
+      p {
+        font-family: 'Roboto', sans-serif;
+        color: #0057ff;
+        display: block;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.25;
+      }
+    }
+  }
+}

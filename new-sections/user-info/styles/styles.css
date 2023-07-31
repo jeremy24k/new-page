@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-user-info {
+  max-width: 385px;
+  margin: 90px auto;
+  padding: 0 20px;
+}
+.section-user-info .container-user-info {
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  padding: 30px;
+}
+.section-user-info .container-user-info .text-top {
+  font-family: "Roboto", sans-serif;
+  color: #707070;
+  font-size: 11px;
+  margin-bottom: 14px;
+}
+.section-user-info .container-user-info .text-user-info {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 19px;
+}
+.section-user-info .container-user-info .text-user-info .img-user-info {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin-right: 15px;
+  transition: 0.5s;
+  cursor: pointer;
+  max-width: 40px;
+  width: 100%;
+}
+.section-user-info .container-user-info .text-user-info .img-user-info:hover {
+  filter: brightness(80%);
+}
+.section-user-info .container-user-info .text-user-info .into-text-info-user .name-user {
+  font-weight: 600;
+  margin-bottom: 3px;
+  color: #191919;
+  cursor: pointer;
+}
+.section-user-info .container-user-info .text-user-info .into-text-info-user .name-user:hover {
+  text-decoration: underline;
+}
+.section-user-info .container-user-info .text-user-info .into-text-info-user .nation-text {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.section-user-info .container-user-info .text-user-info .into-text-info-user .nation-text p {
+  font-size: 14px;
+  color: dimgray;
+  font-weight: 400;
+  text-align: center;
+  transition: 0.5s;
+}
+.section-user-info .container-user-info .text-user-info .into-text-info-user .nation-text svg {
+  width: 12px;
+  height: 12px;
+  margin-right: 3px;
+  fill: dimgray;
+  transition: 0.5s;
+}
+.section-user-info .container-user-info .text-user-info .into-text-info-user .nation-text:hover svg {
+  fill: #191919;
+}
+.section-user-info .container-user-info .text-user-info .into-text-info-user .nation-text:hover p {
+  color: #191919;
+}
+.section-user-info .container-user-info .buttom-follow {
+  display: flex;
+  background-color: #0057ff;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 6px 15px 8px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  min-height: 40px;
+  margin-bottom: 15px;
+  transition: 0.5s;
+}
+.section-user-info .container-user-info .buttom-follow:hover {
+  background-color: #003ecb;
+}
+.section-user-info .container-user-info .buttom-follow svg {
+  width: 18px;
+  height: 19px;
+  margin-right: 6px;
+  fill: white;
+}
+.section-user-info .container-user-info .buttom-follow p {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+.section-user-info .container-user-info .buttom-messanje {
+  display: flex;
+  background: #f5f8ff;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 6px 15px 8px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  min-height: 38px;
+  margin-bottom: 15px;
+  border: 1px solid #dee8ff;
+  transition: 0.5s;
+}
+.section-user-info .container-user-info .buttom-messanje:hover {
+  border: 1px solid #b7cdff;
+  background-color: #dee8ff;
+}
+.section-user-info .container-user-info .buttom-messanje svg {
+  width: 18px;
+  height: 19px;
+  margin-right: 6px;
+  fill: #0057ff;
+}
+.section-user-info .container-user-info .buttom-messanje p {
+  font-family: "Roboto", sans-serif;
+  color: #0057ff;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+}/*# sourceMappingURL=styles.css.map */
