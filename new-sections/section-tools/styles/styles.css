@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-tools {
+  max-width: 385px;
+  margin: auto;
+  padding: 20px;
+}
+.section-tools .container-tools {
+  padding: 30px;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+}
+.section-tools .container-tools .tools {
+  margin-bottom: 30px;
+}
+.section-tools .container-tools .tools .title-tools {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 15px;
+  color: #707070;
+  font-size: 11px;
+}
+.section-tools .container-tools .tools .buttom-tools {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  min-height: 47px;
+  padding: 10px 30px 12px;
+  transition: background-color 0.15s linear;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+.section-tools .container-tools .tools .buttom-tools .container-logos {
+  display: flex;
+  z-index: 1;
+}
+.section-tools .container-tools .tools .buttom-tools .container-logos .img-logo {
+  margin-right: 10px;
+  max-width: 25px;
+  max-height: 25px;
+}
+.section-tools .container-tools .tools .buttom-tools .container-logos p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.section-tools .container-tools .tools .buttom-tools .img-background {
+  bottom: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.section-tools .container-tools .tools .buttom-tools:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.section-tools .container-tools .cretive .title-creative {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 15px;
+  color: #707070;
+  font-size: 11px;
+}
+.section-tools .container-tools .cretive .buttom-creative {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  min-height: 47px;
+  padding: 10px 30px 12px;
+  transition: background-color 0.15s linear;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 8px;
+  text-decoration: none;
+  text-align: center;
+}
+.section-tools .container-tools .cretive .buttom-creative p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.section-tools .container-tools .cretive .buttom-creative .img-background {
+  bottom: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.section-tools .container-tools .cretive .buttom-creative:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}/*# sourceMappingURL=styles.css.map */
