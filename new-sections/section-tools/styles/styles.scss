@@ -15,6 +15,7 @@
     padding: 30px;
     border: 1px solid #e8e8e8;
     border-radius: 3px;
+    margin-bottom: 20px;
 
     //-----------------------tools------------------------
     .tools {
@@ -131,6 +132,36 @@
         &:hover {
           background-color: rgba(0,0,0,.6);
         }
+      }
+    }
+  }
+
+  //----------------------buttom-modal------------------------
+  .container-buttom-modal {
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    padding: 30px;
+
+    .buttom-modal {
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      max-width: 80px;
+      width: 100%;
+      border: 1px solid #e8e8e8;
+      padding: 7px 20px;
+      border-radius: 50px;
+      transition: 0.5s;
+
+      p {
+        color: #191919;
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      &:hover {
+        background-color: #f2f2f2;
       }
     }
   }
