@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//--------------------section-modal---------------------
+.modal-window {
+
+  //-------------------container-section-modal---------------------
+  .container-modal-g {
+    max-width: 1440px;
+    margin: auto;
+
+    //--------------------buttom-modal---------------------
+    .buttom-modal {
+      background-color: red;
+      max-width: 200px;
+      min-height: 40px;
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: white;
+      margin: 80px auto;
+      cursor: pointer;
+    }
+    
+    div.open-modal {
+      opacity: 1;  
+      pointer-events: unset; 
+    }
+    
+    //--------------------windown-modal---------------------
+    .modal {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.5s;
+
+      .background-modal {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #000000bd;
+        width: 100%;
+        height: 100vh;
+        cursor: pointer;
+      }
+
+      .into-modal-windown {
+          margin: 250px auto;
+          max-width: 640px;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 0 20px;
+
+        .img-modal {
+          position: relative;
+          bottom: -12px;
+          max-width: 60%;
+          margin: auto;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        .container-modal {
+          min-height: 150px;
+          background-color: #f00437b2;
+          z-index: 10;
+
+          .buttom-close {
+            margin-left: auto;
+            max-width: 25px;
+            max-height: 25px;
+            padding: 5px;
+            box-sizing: content-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            
+            svg {
+              width: 25px;
+              height: 25px;
+              fill: white;
+              transition: 0.5s;
+            }
+
+            &:hover {
+              svg {
+                fill: black;
+              }
+            }
+          }
+
+          .container-form-modal {
+            .form-modal {
+              display: flex;
+              justify-content: space-between;
+              padding: 20px 60px;
+
+              .input-modal {
+                border: 1px solid rgb(226, 226, 226);
+                background-color: transparent;
+                padding: 10px 60px;
+                border-radius: 15px;
+                outline: none;
+                color: #bbbbbb;
+                font-family: 'Roboto', sans-serif;
+
+                &::placeholder {
+                  color: #bbbbbb;
+                  font-family: 'Roboto', sans-serif;
+                }
+              }
+
+              .buttom-subcribe {
+                text-decoration: none;
+                border: 2px solid rgba(226, 226, 226, 0.829);
+                padding: 10px 40px;
+                border-radius: 15px;
+                transition: 0.5s;
+
+                p{
+                  font-family: 'Roboto', sans-serif;
+                  color: white;
+                  font-weight: 400;
+                }
+
+                &:hover {
+                  background-color: rgba(226, 226, 226, 0.233);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  //------------------------merdia-querys-----------------------
+  @media (max-width:640px) {
+    .container-modal-g {
+      .modal {
+        .into-modal-windown {
+          .container-modal {
+            .container-form-modal {
+              .form-modal {
+                padding: 20px;
+                flex-direction: column;
+                align-items: center;
+
+                .input-modal {
+                  margin-bottom: 20px;
+                  max-width: 100%;
+                  padding: 10px 40px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+  

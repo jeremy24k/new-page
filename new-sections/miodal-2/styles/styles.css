@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.modal-window .container-modal-g {
+  max-width: 1440px;
+  margin: auto;
+}
+.modal-window .container-modal-g .buttom-modal {
+  background-color: red;
+  max-width: 200px;
+  min-height: 40px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  margin: 80px auto;
+  cursor: pointer;
+}
+.modal-window .container-modal-g div.open-modal {
+  opacity: 1;
+  pointer-events: unset;
+}
+.modal-window .container-modal-g .modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.modal-window .container-modal-g .modal .background-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7411764706);
+  width: 100%;
+  height: 100vh;
+  cursor: pointer;
+}
+.modal-window .container-modal-g .modal .into-modal-windown {
+  margin: 250px auto;
+  max-width: 640px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+}
+.modal-window .container-modal-g .modal .into-modal-windown .img-modal {
+  position: relative;
+  bottom: -12px;
+  max-width: 60%;
+  margin: auto;
+}
+.modal-window .container-modal-g .modal .into-modal-windown .img-modal img {
+  width: 100%;
+}
+.modal-window .container-modal-g .modal .into-modal-windown .container-modal {
+  min-height: 150px;
+  background-color: rgba(240, 4, 55, 0.6980392157);
+  z-index: 10;
+}
+.modal-window .container-modal-g .modal .into-modal-windown .container-modal .buttom-close {
+  margin-left: auto;
+  max-width: 25px;
+  max-height: 25px;
+  padding: 5px;
+  box-sizing: content-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.modal-window .container-modal-g .modal .into-modal-windown .container-modal .buttom-close svg {
+  width: 25px;
+  height: 25px;
+  fill: white;
+  transition: 0.5s;
+}
+.modal-window .container-modal-g .modal .into-modal-windown .container-modal .buttom-close:hover svg {
+  fill: black;
+}
+.modal-window .container-modal-g .modal .into-modal-windown .container-modal .container-form-modal .form-modal {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+.modal-window .container-modal-g .modal .into-modal-windown .container-modal .container-form-modal .form-modal .input-modal {
+  border: 1px solid rgb(226, 226, 226);
+  background-color: transparent;
+  padding: 10px 60px;
+  border-radius: 15px;
+  outline: none;
+  color: #bbbbbb;
+  font-family: "Roboto", sans-serif;
+}
+.modal-window .container-modal-g .modal .into-modal-windown .container-modal .container-form-modal .form-modal .input-modal::-moz-placeholder {
+  color: #bbbbbb;
+  font-family: "Roboto", sans-serif;
+}
+.modal-window .container-modal-g .modal .into-modal-windown .container-modal .container-form-modal .form-modal .input-modal::placeholder {
+  color: #bbbbbb;
+  font-family: "Roboto", sans-serif;
+}
+.modal-window .container-modal-g .modal .into-modal-windown .container-modal .container-form-modal .form-modal .buttom-subcribe {
+  text-decoration: none;
+  border: 2px solid rgba(226, 226, 226, 0.829);
+  padding: 10px 40px;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.modal-window .container-modal-g .modal .into-modal-windown .container-modal .container-form-modal .form-modal .buttom-subcribe p {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: 400;
+}
+.modal-window .container-modal-g .modal .into-modal-windown .container-modal .container-form-modal .form-modal .buttom-subcribe:hover {
+  background-color: rgba(226, 226, 226, 0.233);
+}
+@media (max-width: 640px) {
+  .modal-window .container-modal-g .modal .into-modal-windown .container-modal .container-form-modal .form-modal {
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .modal-window .container-modal-g .modal .into-modal-windown .container-modal .container-form-modal .form-modal .input-modal {
+    margin-bottom: 20px;
+    max-width: 100%;
+    padding: 10px 40px;
+  }
+}/*# sourceMappingURL=styles.css.map */
