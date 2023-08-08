@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-login .conatiner-login {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+}
+.section-login .conatiner-login .title-login {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.section-login .conatiner-login .container-form-login .form-login .conatiner-input-login {
+  display: flex;
+  flex-direction: column;
+}
+.section-login .conatiner-login .container-form-login .form-login .conatiner-input-login .title-input {
+  color: rgba(0, 0, 0, 0.6117647059);
+  margin-bottom: 8px;
+}
+.section-login .conatiner-login .container-form-login .form-login .conatiner-input-login .input-login {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.6117647059);
+  font-family: "Roboto", sans-serif;
+}
+.section-login .conatiner-login .container-form-login .form-login .conatiner-input-login .input-login:focus {
+  outline: 1px solid #336fa4;
+}
+.section-login .conatiner-login .container-form-login .form-login .conatiner-input-login .input-login:placeholder {
+  font-family: "Roboto", sans-serif;
+}
+.section-login .conatiner-login .container-form-login .form-login .container-buttom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.section-login .conatiner-login .container-form-login .form-login .container-buttom .buttom-form {
+  background-color: #2373e5;
+  text-decoration: none;
+  max-width: 130px;
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.section-login .conatiner-login .container-form-login .form-login .container-buttom .buttom-form p {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+}
+.section-login .conatiner-login .container-form-login .form-login .container-buttom .buttom-form:hover {
+  background-color: rgba(35, 115, 229, 0.7411764706);
+}
+.section-login .conatiner-login .container-form-login .form-login .container-buttom .buttom-password {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: #74919c;
+  transition: 0.5s;
+}
+.section-login .conatiner-login .container-form-login .form-login .container-buttom .buttom-password:hover {
+  color: #2373e5;
+}
+.section-login .conatiner-login .text-create-account {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 40px;
+}
+.section-login .conatiner-login .text-create-account a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: #74919c;
+  margin-left: 3px;
+  transition: 0.5s;
+}
+.section-login .conatiner-login .text-create-account a:hover {
+  color: #2373e5;
+}
+.section-login .conatiner-login .bottom-bar-login {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.section-login .conatiner-login .bottom-bar-login .line-bottom-bar {
+  max-width: 100%;
+  width: 100%;
+  min-height: 1px;
+  background-color: rgba(0, 0, 0, 0.6117647059);
+}
+.section-login .conatiner-login .bottom-bar-login .text-bar-login {
+  width: 100%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.section-login .conatiner-login .buttom-login-google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #336fa4;
+  max-width: 55%;
+  margin: auto;
+  padding: 5px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.section-login .conatiner-login .buttom-login-google svg {
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+}
+.section-login .conatiner-login .buttom-login-google p {
+  color: #336fa4;
+}
+.section-login .conatiner-login .buttom-login-google:hover {
+  background-color: rgba(187, 187, 187, 0.7411764706);
+}
+@media (max-width: 380px) {
+  .section-login .conatiner-login .container-form-login .form-login .container-buttom {
+    flex-direction: column;
+  }
+  .section-login .conatiner-login .container-form-login .form-login .container-buttom .buttom-form {
+    margin-bottom: 20px;
+  }
+  .section-login .conatiner-login .buttom-login-google p {
+    font-size: 14px;
+  }
+  .section-login .conatiner-login .buttom-login-google svg {
+    width: 18px;
+    height: 18px;
+  }
+  .section-login .conatiner-login .text-create-account {
+    text-align: center;
+  }
+}/*# sourceMappingURL=styles.css.map */

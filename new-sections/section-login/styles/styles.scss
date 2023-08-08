@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//---------------------section-login--------------------
+.section-login {
+  .conatiner-login {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+
+    .title-login {
+      font-family: 'Roboto', sans-serif;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .container-form-login {
+
+      
+      //---------------------form-login--------------------
+      .form-login {
+        .conatiner-input-login {
+          display: flex;
+          flex-direction: column;
+
+          .title-input {
+            color: #0000009c;
+            margin-bottom: 8px;
+          }
+
+          .input-login {
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            outline: none;
+            border: 1px solid #0000009c;
+            font-family: 'Roboto', sans-serif;
+
+            &:focus {
+              outline: 1px solid #336fa4;
+            }
+
+            &:placeholder {
+              font-family: 'Roboto', sans-serif;
+            }
+          }
+        }
+
+        .container-buttom {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 20px;
+
+          
+          //---------------------buttom-login--------------------
+          .buttom-form {
+            background-color: #2373e5;
+            text-decoration: none;
+            max-width: 130px;
+            width: 100%;
+            min-height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50px;
+            transition: 0.5s;
+
+            p {
+              font-family: 'Roboto', sans-serif;
+              color: #ffffff;
+              font-weight: 500;
+            }
+
+            &:hover {
+              background-color: #2373e5bd;
+            }
+          }
+
+          .buttom-password {
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            color: #74919c;
+            transition: 0.5s;
+
+            &:hover {
+              color: #2373e5;
+            }
+          }
+        }
+      }
+    }
+
+    
+    //---------------------create-account-login--------------------
+    .text-create-account {
+      font-family: 'Roboto', sans-serif;
+      margin-bottom: 40px;
+
+      a {
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        color: #74919c;
+        margin-left: 3px;
+
+        transition: 0.5s;
+
+        &:hover {
+          color: #2373e5;
+        }
+      }
+    }
+
+    //---------------------bar-bottom-login--------------------
+    .bottom-bar-login {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+
+      .line-bottom-bar {
+        max-width: 100%;
+        width: 100%;
+        min-height: 1px;
+        background-color: #0000009c;
+      }
+
+      .text-bar-login {
+        width: 100%;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+      }
+    }
+
+    //---------------------login-with-google--------------------
+    .buttom-login-google {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid #336fa4;
+      max-width: 55%;
+      margin: auto;
+      padding: 5px;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: 0.5s;
+
+      svg {
+        width: 28px;
+        height: 28px;
+        margin-right: 10px;
+      }
+
+      p {
+        color: #336fa4;
+      }
+
+      &:hover {
+        background-color: #bbbbbbbd;
+      }
+    }
+  }
+
+  //---------------------@media=-querys--------------------
+  @media (max-width: 380px) {
+    .conatiner-login {
+      .container-form-login {
+        .form-login {
+          .container-buttom {
+            .buttom-form {
+              margin-bottom: 20px;
+            }
+
+            flex-direction: column;
+          }
+        }
+      }
+
+      .buttom-login-google {
+        p {
+          font-size: 14px;
+        }
+
+        svg {
+          width: 18px;
+          height: 18px;
+        }
+      } 
+
+      .text-create-account {
+        text-align: center;
+      }
+    }
+  }
+}
