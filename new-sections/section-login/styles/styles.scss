@@ -6,11 +6,16 @@
 
 //---------------------section-login--------------------
 .section-login {
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+
   .conatiner-login {
-    max-width: 400px;
+    max-width: 1440px;
     margin: 40px auto;
     padding: 20px;
-    background-color: white;
+    z-index: 1;
+    position: relative;
 
     .title-login {
       font-family: 'Roboto', sans-serif;
@@ -164,6 +169,30 @@
     }
   }
 
+  //---------------------background-login--------------------
+  .container-background {
+    .element {
+      max-width: 320px;
+      width: 100%;
+      min-height: 320px;
+      background-color: #2373e5bd;
+      border-radius: 20%;
+      position: absolute;
+    }
+
+    .element-1 {
+      transform: rotate(55deg);
+      top: 100px;
+      left: -180px;
+    }
+
+    .element-2 {
+      transform: rotate(-50deg);
+      top: -80px;
+      right: -150px;
+    }
+  }
+
   //---------------------@media=-querys--------------------
   @media (max-width: 380px) {
     .conatiner-login {
@@ -192,6 +221,12 @@
 
       .text-create-account {
         text-align: center;
+      }
+    }
+    .container-background {
+      .element {
+        max-width: 280px;
+        min-height: 280px;
       }
     }
   }

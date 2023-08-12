@@ -4,11 +4,17 @@
   box-sizing: border-box;
 }
 
+.section-login {
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
 .section-login .conatiner-login {
-  max-width: 400px;
+  max-width: 1440px;
   margin: 40px auto;
   padding: 20px;
-  background-color: white;
+  z-index: 1;
+  position: relative;
 }
 .section-login .conatiner-login .title-login {
   font-family: "Roboto", sans-serif;
@@ -125,6 +131,24 @@
 .section-login .conatiner-login .buttom-login-google:hover {
   background-color: rgba(187, 187, 187, 0.7411764706);
 }
+.section-login .container-background .element {
+  max-width: 320px;
+  width: 100%;
+  min-height: 320px;
+  background-color: rgba(35, 115, 229, 0.7411764706);
+  border-radius: 20%;
+  position: absolute;
+}
+.section-login .container-background .element-1 {
+  transform: rotate(55deg);
+  top: 100px;
+  left: -180px;
+}
+.section-login .container-background .element-2 {
+  transform: rotate(-50deg);
+  top: -80px;
+  right: -150px;
+}
 @media (max-width: 380px) {
   .section-login .conatiner-login .container-form-login .form-login .container-buttom {
     flex-direction: column;
@@ -141,5 +165,9 @@
   }
   .section-login .conatiner-login .text-create-account {
     text-align: center;
+  }
+  .section-login .container-background .element {
+    max-width: 280px;
+    min-height: 280px;
   }
 }/*# sourceMappingURL=styles.css.map */
